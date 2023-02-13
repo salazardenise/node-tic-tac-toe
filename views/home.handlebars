@@ -1,1 +1,72 @@
-<h1>HOME!</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Online Tic Tac Toe!</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h3 class="waitingElement"></h3>
+		</div>
+	</div>
+</div>
+<div class="container grid">
+	<div class="row align-items-center">
+		<div class="col-sm-2 sidebar">
+			<button type="button" class="btn btn-primary btn-group-vertical connectButton">Connect</button>
+
+			<button type="button" class="btn btn-primary btn-group-vertical newGameButton">New Game</button>
+
+		</div>
+		<div class="col-sm-10 text-center mainbar board">
+			<div class="row">
+				<div class="col-4 cross cell cell-0-0">   </div>
+				<div class="col-4 circle cell cell-0-1">   </div>
+				<div class="col-4 cell cell-0-2">   </div>
+			</div>
+			<div class="row">
+				<div class="col-4 cell cell-1-0">   </div>
+				<div class="col-4 cell cell-1-1">   </div>
+				<div class="col-4 cell cell-1-2">   </div>
+			</div>
+			<div class="row">
+				<div class="col-4 cell cell-2-0">   </div>
+				<div class="col-4 cell cell-2-1">   </div>
+				<div class="col-4 cell cell-2-2">   </div>
+			</div>
+		</div>
+	</div>
+</div>
+<br/>
+<br/>
+<div class="container table-responsive">
+	<table class="table table-hover availableGames">
+		<caption>List of available games</caption>
+		<thead>
+			<tr>
+				<th scope="col">Available Games</th>
+			</tr>
+		</thead>
+		<tbody class="gamesBody">
+		</tbody>
+	</table>
+</div>
+<br/>
+<br/>
+<div class="container table-responsive">
+	<table class="table ids">
+		<caption>Table of current client id and game id</caption>
+		<thead>
+			<tr>
+				<th scope="col">Client Id</th>
+				<th scope="col">Game Id</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th class="clientIdElement" scope="row"></th>
+				<th class="gameIdElement"></th>
+			</tr>
+		</tbody>
+	</table>
+</div>

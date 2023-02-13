@@ -13,7 +13,11 @@ node command-line-app.js
 ```
 
 ## what was installed
+- nodemon
 - express
 - express-handlebars
-- nodemon
+- socket.io
 - prompt-sync (for the command line app)
+- http
+- websocket
+- uuid
